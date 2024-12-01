@@ -1,0 +1,1 @@
+UPDATE `reviews` SET `id`='[value-1]',`review_text`='[value-2]',`customer_name`='[value-3]',`event_type`='[value-4]',`customer_photo`='[value-5]',`created_at`='[value-6]' WHERE 1
