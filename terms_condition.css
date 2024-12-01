@@ -1,0 +1,60 @@
+/* Basic styles for the page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+    color: #333;
+}
+
+.terms-content {
+    margin-bottom: 20px;
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.terms-content p {
+    margin-bottom: 10px;
+}
+
+.terms-content a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.terms-content a:hover {
+    text-decoration: underline;
+}
+
+.acceptance {
+    margin-bottom: 20px;
+}
+
+#submitBtn {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2em;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    cursor: pointer;
+}
+
+#submitBtn:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+}

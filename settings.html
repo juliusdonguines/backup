@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Settings</title>
+  <link rel="stylesheet" href="settings.css">
+</head>
+<body>
+  <div class="container">
+    <h1>User Settings</h1>
+
+    <!-- Navigation Menu for Settings -->
+    <div class="settings-menu">
+      <button class="tablinks" onclick="openTab(event, 'account')">Account</button>
+      <button class="tablinks" onclick="openTab(event, 'payment')">Payment Methods</button>
+      <button class="tablinks" onclick="openTab(event, 'notifications')">Notifications</button>
+    </div>
+
+    <!-- Account Tab -->
+    <div id="account" class="tabcontent">
+      <h2>Account Settings</h2>
+      <form id="account-form">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" value="JohnDoe">
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" value="johndoe@example.com">
+        
+        <label for="password">New Password:</label>
+        <input type="password" id="password" name="password" placeholder="Change your password">
+        
+        <button type="submit">Save Changes</button>
+      </form>
+    </div>
+
+    <!-- Payment Methods Tab -->
+    <div id="payment" class="tabcontent">
+      <h2>Payment Methods</h2>
+      <form id="payment-form">
+        <label for="card-name">Card Holder's Name:</label>
+        <input type="text" id="card-name" name="card-name" placeholder="John Doe">
+        
+        <label for="card-number">Card Number:</label>
+        <input type="text" id="card-number" name="card-number" placeholder="**
+**
+** 1234">
+        
+        <label for="expiration">Expiration Date:</label>
+        <input type="text" id="expiration" name="expiration" placeholder="MM/YY">
+        
+        <button type="submit">Save Payment Method</button>
+      </form>
+    </div>
+
+    <!-- Notifications Tab -->
+    <div id="notifications" class="tabcontent">
+      <h2>Notification Settings</h2>
+      <form id="notifications-form">
+        <label for="email-notifications">
+          <input type="checkbox" id="email-notifications" checked>
+          Receive email notifications
+        </label>
+        
+        <label for="sms-notifications">
+          <input type="checkbox" id="sms-notifications">
+          Receive SMS notifications
+        </label>
+        
+        <label for="push-notifications">
+          <input type="checkbox" id="push-notifications">
+          Receive push notifications
+        </label>
+        
+        <button type="submit">Save Notification Preferences</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="settings.js"></script>
+</body>
+</html>

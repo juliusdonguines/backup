@@ -1,0 +1,98 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #fdffe8;
+}
+
+.signup-container {
+    background-color: #fcffd1;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 400px;
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo img {
+    max-width: 100px;
+}
+
+.signup-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    gap: 10px;
+}
+
+.signup-form .form-row {
+    grid-column: span 2; /* Spans both columns for full-width rows */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+input[type="button"],
+button {
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.verification-text {
+    grid-column: span 2;
+    text-align: center;
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.verification-section {
+    display: flex;
+    gap: 10px;
+    grid-column: span 2;
+}
+
+.resend-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.resend-btn:hover {
+    background-color: #0056b3;
+}
+
+.signup-btn {
+    grid-column: span 2;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.signup-btn:hover {
+    background-color: #218838;
+}
+
+.error-message {
+    color: red;
+    grid-column: span 2;
+    text-align: center;
+    font-size: 12px;
+}
