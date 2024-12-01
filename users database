@@ -1,0 +1,1 @@
+UPDATE `users` SET `id`='[value-1]',`lastname`='[value-2]',`username`='[value-3]',`firstname`='[value-4]',`email`='[value-5]',`middlename`='[value-6]',`password`='[value-7]',`birthday`='[value-8]',`verification_code`='[value-9]',`verified`='[value-10]',`created_at`='[value-11]' WHERE 1
