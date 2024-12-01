@@ -1,0 +1,1 @@
+UPDATE `products` SET `id`='[value-1]',`product_title`='[value-2]',`product_description`='[value-3]',`price`='[value-4]',`product_image`='[value-5]',`created_at`='[value-6]',`shop_id`='[value-7]' WHERE 1
