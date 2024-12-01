@@ -251,6 +251,18 @@ a:hover {
         <label for="profile_pic">Profile Picture (Shop Icon):</label>
         <input type="file" name="profile_pic" id="profile_pic" accept="image/*" required>
 
+        <label for="profile_pic">Identity Proof (Upload):</label>
+        <input type="file" name="profile_pic" id="profile_pic" accept="image/*" required>
+
+        <label for="profile_pic">Business License/Permit (Upload):</label>
+        <input type="file" name="profile_pic" id="profile_pic" accept="image/*" required>
+
+        <label for="profile_pic">Sales Tax Registration (Upload):</label>
+        <input type="file" name="profile_pic" id="profile_pic" accept="image/*" required>
+
+        <label for="profile_pic">Valid I.D (Upload):</label>
+        <input type="file" name="profile_pic" id="profile_pic" accept="image/*" required>
+
         <button type="submit">Create Shop</button>
 
         <p><a href="homepage.php">Back to Homepage</a></p>
